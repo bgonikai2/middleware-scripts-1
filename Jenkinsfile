@@ -8,19 +8,19 @@ pipeline {
                 sleep 5
             }
         }
-        stage('build') {
+        stage('Build') {
             steps {
                 echo 'build'
                 sleep 5
             }
         }
-        stage('test') {
+        stage('Test') {
             steps {
                 echo 'test'
                 sleep 5
             }
         }
-        stage('deploy') {
+        stage('Deploy') {
             steps {
                 echo 'deploy'
                 sleep 7
