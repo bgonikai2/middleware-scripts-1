@@ -20,11 +20,15 @@ pipeline {
                 sleep 5
             }
         }
+        stage('Docker') {
+            steps {
+                echo 'Docker'
+                sleep 10
+            }   
+        }
         stage('Deploy') {
             steps {
                 echo 'Deploy'
-                sleep 10
-            }
-        }
+                sleep 8
     }
 }
