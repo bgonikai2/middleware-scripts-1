@@ -30,5 +30,7 @@ pipeline {
             steps {
                 echo 'Deploy'
                 sleep 8
+            }
+        }    
     }
 }
